@@ -13,6 +13,12 @@ M.general = {
   }
 }
 
+M.disabled = {
+  n = { 
+    ["<leader>b"] = "", 
+  }
+}
+
 -- more keybinds!
 M.custom = {
   n = {
@@ -67,6 +73,10 @@ M.custom = {
     ["<leader>S"] = { ":wa<cr>", "Save all" },
     -- Windows
     ["<leader>q"] = { "<c-w>q", "Close window" },
+    -- [] = {},
+    -- [] = {},
+    -- [] = {},
+    -- [] = {},
     -- Searching 
     ["<leader>r"] = { ":Telescope resume<cr>", "Resume last search" },
     -- Telescope

@@ -16,7 +16,7 @@ local function set_repl_winbar()
         "%#winbarseparator#"
         .. "%="
         .. "%#user.repl.winbar# "
-        .. "%{%v:lua.require'config.tools.nrepl-finder'.get_repl_status('no REPL')%}"
+        .. "%{%v:lua.require'custom.tools.nrepl'.get_repl_status('no REPL')%}"
         .. "%#user.repl.winbar# "
         .. "%#winbarseparator#"
       )
@@ -52,7 +52,7 @@ end
 -- local mappings = require("config.plugins.conjure.portal-mappings")
 local wk = require("which-key")
 
-local repl = require("custom.tools.nrepl-finder")
+local repl = require("custom.tools.nrepl")
 
 local function conjure_log_open(is_vertical)
     vim.cmd("ConjureLogCloseVisible")
