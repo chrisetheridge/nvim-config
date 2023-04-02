@@ -11,3 +11,5 @@ vim.g.maplocalleader = ","
 require "custom.commands"
 
 require "custom.autocommands"
+
+require "custom.configs.neovide"
