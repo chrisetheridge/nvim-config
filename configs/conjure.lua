@@ -24,6 +24,7 @@ local function set_repl_winbar()
 end
 
 local grp = vim.api.nvim_create_augroup("conjure_hooks", { clear = true })
+
 vim.api.nvim_create_autocmd("BufNewFile", {
     group = grp,
     pattern = "conjure-log-*",

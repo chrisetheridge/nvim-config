@@ -21,7 +21,7 @@ function M.get_repl_status(not_connected_msg)
               port_file_path = vim.fn.getcwd() .. "/" .. port_file_path
             end
             local app, _ = string.match(port_file_path, "^.+/(.+)/(.+)$")
-            return " " .. (app or "local") .. ":" .. port
+            return  (app or "local") .. ":" .. port
           end
           return host .. ":" .. port
         end

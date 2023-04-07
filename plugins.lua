@@ -260,6 +260,10 @@ local plugins = {
     config = function ()
       require "custom.configs.which-key"
     end
+  },
+
+  {
+    "pradyungn/Mountain"
   }
 
 }
