@@ -264,7 +264,12 @@ local plugins = {
 
   {
     "pradyungn/Mountain"
-  }
+  },
+
+  {
+    "dharmx/track",
+    cmd = "Track",
+  },
 
 }
 
